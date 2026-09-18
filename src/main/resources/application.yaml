@@ -1,0 +1,19 @@
+server:
+  port: 3006
+spring:
+  application:
+    name: OwnerandDriver
+
+  datasource:
+    url: jdbc:postgresql://localhost:6969/OwnerandDriver
+    username: postgres
+    password: 3006
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
